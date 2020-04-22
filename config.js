@@ -1,15 +1,15 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Resume', // <title>
+  siteTitle: 'Katelyn Rodrigue QA', // <title>
   manifestName: 'Resume',
   manifestShortName: 'Landing', // max 12 characters
-  manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
-  manifestDisplay: 'standalone',
+  //manifestStartUrl: '/',
+  manifestBackgroundColor: '#ffff00',
+  manifestThemeColor: '#ffff00',
+  //manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/website-icon.png',
-  pathPrefix: `/gatsby-starter-resume/`, // This path is subpath of your hosting https://domain/portfolio
-  firstName: 'Anubhav',
-  lastName: 'Srivastava',
+  //pathPrefix: ``, // This path is subpath of your hosting https://domain/portfolio
+  firstName: 'Katelyn',
+  lastName: 'Rodrigue',
   // social
   socialLinks: [
     {
@@ -22,18 +22,7 @@ module.exports = {
       name: 'Linkedin',
       url: 'https://linkedin.com/in/theanubhav/',
     },
-    {
-      icon: 'fa-twitter',
-      name: 'Twitter',
-      url: 'https://twitter.com/onlyanubhav',
-    },
-    {
-      icon: 'fa-facebook-f',
-      name: 'Facebook',
-      url: 'https://facebook.com/theanubhav',
-    },
   ],
-  email: 'anubhav.srivastava00@gmail.com',
-  phone: '000-00000',
-  address: '305 Del Sol, Sunnyvale, CA',
+  email: 'katelyn@karenas.com',
+  address: 'Breaking things in NYC',
 };

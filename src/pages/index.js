@@ -19,14 +19,12 @@ const IndexPage = () => (
             <span className="text-primary">{config.lastName}</span>
           </h1>
           <div className="subheading mb-5">
-            {config.address} · {config.phone} ·
+            {config.address} · {config.phone} 
             <a href={`mailto:${config.email}`}>{config.email}</a>
           </div>
           <p className="lead mb-5">
-            I am experienced in leveraging agile frameworks to provide a robust
-            synopsis for high level overviews. Iterative approaches to corporate
-            strategy foster collaborative thinking to further the overall value
-            proposition.
+          Hi, I'm Katelyn and I like to break things. I am a QA Engineer with experience building and leading teams, as well as doing manual and automated testing for web apps, native mobile apps and APIs. I'm currently the QA Lead at <a href="https://bitly.com">Bitly</a>,
+          where I had the opportunity to build the QA team and process.
           </p>
           <div className="social-icons">
             {config.socialLinks.map(social => {
@@ -41,7 +39,7 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <hr className="m-0" />
+      {/* <hr className="m-0" />
 
       <section
         className="resume-section p-3 p-lg-5 d-flex justify-content-center"
@@ -70,7 +68,7 @@ const IndexPage = () => (
 
           <div className="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
             <div className="resume-content">
-              <h3 className="mb-0">Web Developer</h3>
+              <h3 className="mb-0">Lead QA Engineer</h3>
               <div className="subheading mb-3">Intelitec Solutions</div>
               <p>
                 Capitalize on low hanging fruit to identify a ballpark value
@@ -154,9 +152,9 @@ const IndexPage = () => (
         </div>
       </section>
 
-      <hr className="m-0" />
+      <hr className="m-0" /> */}
 
-      <section
+     {/* <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
         id="skills"
       >
@@ -225,32 +223,30 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
 
       <hr className="m-0" />
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
-        id="interests"
+        id="resume_review"
       >
         <div className="w-100">
-          <h2 className="mb-5">Interests</h2>
+          <h2 className="mb-5" id="review_resume">QA Resume Reviews</h2>
           <p>
-            Apart from being a web developer, I enjoy most of my time being
-            outdoors. In the winter, I am an avid skier and novice ice climber.
-            During the warmer months here in Colorado, I enjoy mountain biking,
-            free climbing, and kayaking.
+           As a hiring manager I've looked through hundreds of QA resumes, and a lot of them could have benefitted from a round of QA review themselves.
+          </p>
+          <p> 
+           I believe in the power of a great resume to get your foot in the door for a job opportunity. Your resume can not only communicate your job
+           experience, it can also show your passion, personality, and communication style. In the QA field especially, your resume should show hiring managers that you have an eye for quality and detail. 
           </p>
           <p className="mb-0">
-            When forced indoors, I follow a number of sci-fi and fantasy genre
-            movies and television shows, I am an aspiring chef, and I spend a
-            large amount of my free time exploring the latest technology
-            advancements in the front-end web development world.
+            If you are a QA Engineer/Analyst, Software Tester, or SDET, and you would like a free resume review, please email your resume to <a href={`mailto:${config.email}`}>{config.email}</a>. I will review your resume for content and format and email you back with any suggestions I might have for getting your resume noticed by recruiters and hiring managers.
           </p>
         </div>
       </section>
 
-      <hr className="m-0" />
+      {/* <hr className="m-0" />
 
       <section
         className="resume-section p-3 p-lg-5 d-flex align-items-center"
@@ -292,7 +288,7 @@ const IndexPage = () => (
             </li>
           </ul>
         </div>
-      </section>
+      </section> */}
     </div>
   </Layout>
 );
